@@ -5,6 +5,7 @@ import { Counter } from './components/Counter';
 import { CounterWithHook } from './components/CounterWithHook';
 import { Login } from './components/Login';
 import { Users } from './components/Users';
+import { Form } from './components/Form';
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
         <Login/>
         <hr />
         <Users/>
+        <hr />
+        <Form/>
     </div>
   )
 }
